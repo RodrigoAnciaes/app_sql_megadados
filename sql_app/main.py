@@ -120,6 +120,8 @@ def delete_membro_plano(id_membro: int, id_plano: int, db: Session = Depends(get
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
-    
 
-    s
+# uma request sem path
+@app.get("")
+def read_root():
+    return {"Hello": "World"}
