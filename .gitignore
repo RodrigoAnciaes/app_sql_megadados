@@ -1,0 +1,4 @@
+*.pyc
+postgres_app/.env
+alembic/versions/
+postgres_app/alembic/versions/
