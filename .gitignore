@@ -1,4 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
 *.pyc
-postgres_app/.env
-alembic/versions/
-postgres_app/alembic/versions/
+*.pyo
+__pycache__/*
+*.pyc
+*.pyo
+
+# Dependency directories
+.env
+venv/
+venv_wsl/
+env/
+
+# Virtual Environment
+__env/
+
+# Compiled Python files
+*.pyc
+
+# Logs
+*.log
+
+# Build and distribution directories
+.build/
+dist/
+venv/
+.DS_Store
+__pycache__/
+
+# Python egg metadata, regenerated from source files
+*.egg-info/
+*.egg-info/*
+
+# SQLalchemy files
+*.sqlite3
+*.sqlite3-journal
+
+# MySQL files
+*.sql
+*.sql/*
+*.data.db
